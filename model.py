@@ -15,7 +15,7 @@ from sklearn.ensemble import RandomForestClassifier
 import pickle
 
 # Change directory to where the data files are located
-os.chdir('C:/Users/gchar/Major_Project')
+os.chdir('Loan-Prediction')
 
 # Load training and testing data
 train = pd.read_csv('train.csv')
