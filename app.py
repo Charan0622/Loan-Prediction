@@ -6,7 +6,7 @@ import os
 from sklearn.preprocessing import StandardScaler
 
 # Load the model
-model_path = 'C:/Users/gchar/Major_Project/logistic_regression_model.pkl'
+model_path = 'logistic_regression_model.pkl'
 if os.path.exists(model_path):
     model = pickle.load(open(model_path, 'rb'))
 else:
